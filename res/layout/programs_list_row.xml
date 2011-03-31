@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:paddingTop="15dip"
+	android:paddingBottom="15dip" android:gravity="center_vertical"
+	android:paddingLeft="15dip">
+	<LinearLayout android:layout_marginRight="40dip"
+		android:id="@+id/cardsListRowF" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<!--  <ImageView android:layout_width="47px"
+			android:layout_height="47px" android:id="@+id/programLogo">
+		</ImageView>-->
+		<TextView android:layout_width="wrap_content"
+			android:gravity="center_vertical" android:layout_height="wrap_content"
+			android:id="@+id/programName" android:ellipsize="end"
+			android:singleLine="true" android:paddingLeft="15dip"
+			android:paddingRight="40dip" android:textSize="22sp"
+			android:textColor="#000000">
+		</TextView>
+	</LinearLayout>
+</LinearLayout>
